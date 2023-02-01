@@ -1,12 +1,39 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+    
+    background-color: black;
+    background-image: url("/images/raffles_city_blur.jpg");
+    
+    /* Center and scale the image nicely */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover
+     }
+
+.normal-text {
+    color: #ffffff;
+}
+
+img#temasek-logo {
+    width: 8%;
+    height: auto
+}
+
 h1 {
-    font-size: 72px;  
+    font-size: 54px;  
+    color: #ffffff
 }
 
 h2 {
-    color: #00ff00;
+    color: #b5f7b5;
+}
+
+h3.job-name {
+    color: #8c00ff
 }
 
 h4.job-title {
+    color: #ff8200
 }
 
 h2#menu {
@@ -16,11 +43,42 @@ h2#menu {
 }
 
 a {
-    color: purple;
+    color: #ffb3ff;
 }
 
 h2#job {
     color: blue;
+}
+
+ul.shadow {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ul#menu {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li.navlink {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
 }
 
 /* .navlink {
